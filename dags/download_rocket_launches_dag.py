@@ -40,7 +40,7 @@ def _get_pictures():
 
                 print(f"Downloaded {image_url} to {target_file}")
             except Exception as e:
-                print("An error ocurred when fetching API: ", e)
+                print("An error ocurred when fetching API: ", e)                
                 continue
 
 
